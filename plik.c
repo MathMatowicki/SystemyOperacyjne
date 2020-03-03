@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-int main(nt argc, char *argv[])
+int main(int argc, char *argv[])
 {
     FILE *f = fopen("notatki.txt", "r");    // otwiera plik do odczytu (musi istniec)
     if (f == NULL)
